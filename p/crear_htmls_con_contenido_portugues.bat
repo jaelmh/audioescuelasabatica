@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 set year=25
-set month=07
+set month=08
 
 for /L %%d in (1,1,31) do (
     if %%d LSS 10 (
