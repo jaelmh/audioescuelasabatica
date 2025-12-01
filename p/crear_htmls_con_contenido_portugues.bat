@@ -1,9 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 set year=25
-set month=11
+set month=12
 
-for /L %%d in (1,1,30) do (
+for /L %%d in (1,1,31) do (
     if %%d LSS 10 (
         set day=0%%d
     ) else (
